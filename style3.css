@@ -1,0 +1,132 @@
+
+*{ margin:0 0}
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Orbitron&display=swap');
+
+        a:link, a:visited {
+            background-color:  rgb(122, 99, 99) ;
+            color: white;
+            padding: 14px 0px;
+            max-width: 318px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            width: 100%;
+          }
+          
+          a:hover, a:active {
+            background-color: #f3685e;
+          }
+          #reteta:link, #reteta:visited {
+            background-color: rgb(122, 99, 99);
+            color: white;
+            padding: 14px 0px;
+            max-width: 318px;
+            min-width: 208;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+          }
+          
+          #reteta:hover, #reteta:active {
+            background-color:#f3685e;
+          }
+          #email:link, #email:visited {
+            background-color:rgb(48, 44, 44);
+            color:white;
+            padding: 5px 0px;
+            text-align: left;
+            text-decoration: none;
+            display: inline-block;}
+
+            #email:hover, #email:active {
+                background-color:rgb(48, 44, 44);}
+
+   
+#header {
+    
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position-x: center;
+    width: auto;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border-top:60px solid black;
+    border-bottom: 35px solid black;
+    
+    }
+    #content:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+#container{
+    align-content: center;
+}    
+
+#content{
+    
+   
+}
+#benner{
+  width: 100%;
+  max-width: 900px;
+}
+#doze{
+  width: 100%;
+}
+@media screen and (max-width:320px) {
+  
+   #main {
+    width: 100%;
+  };
+   #bgnav{
+     width: 100%;
+   }
+}
+#main{
+    background-color: black;
+    margin-top: none;
+    margin-bottom:none;
+    padding-right: 20px black;
+    padding-left: 20px;
+    color: white;
+    font-size:20px;
+    font-family: 'Pacifico';
+    text-shadow: 1px 1px rgb(175, 5, 5);
+    min-width: 300px;
+    display:inline;
+    
+    
+}
+#nav{ color:white;
+  text-shadow: rgb(243, 11, 11) 1px 1px;
+  font-family: 'Caveat', cursive;
+  font-size:23px;
+   
+}
+
+
+ #bgnav{
+   text-align: center;
+   height:auto;
+   background-color:black;
+   display:inline;
+   
+   min-width: 214px;
+   
+ 
+}
+
+#body{background-color: red;
+}
+
+#footer{
+    background-color: rgb(48, 44, 44);
+    color:white;
+    padding-top: 40px;
+    padding-bottom: 28px;
+    width: auto;
+}
